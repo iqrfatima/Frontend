@@ -29,11 +29,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  height: 100%;  /* Full height */
+  margin: 0;  /* Removes default margins */
+  display: block;  /* Default block behavior */
 }
 
 h1 {
