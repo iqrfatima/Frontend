@@ -38,8 +38,8 @@ function ForecastCard({ forecastData }) {
               />
               <p className="text-gray-800 dark:text-gray-100 font-bold">{Math.round(dayTemperature)}°C</p>
               <p className="text-gray-600 dark:text-gray-400">{Math.round(dayMinTemp)}°C - {Math.round(dayMaxTemp)}°C</p>
-              <p className="text-gray-600 dark:text-gray-400">{dayHumidity} : humidity</p>
-              <p className="text-gray-600 dark:text-gray-400">{dayPressure} : pressure</p>
+              <p className="text-gray-600 dark:text-gray-400">humidity : {dayHumidity} </p>
+              <p className="text-gray-600 dark:text-gray-400">pressure : {dayPressure}</p>
             </div>
           );
         })}
