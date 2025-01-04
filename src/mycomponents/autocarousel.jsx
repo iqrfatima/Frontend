@@ -3,6 +3,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
 import as1 from "../images/as1.jpg"
+import pest from"../images/pest.jpg"
+import wfc2 from"../images/wfc2.jpg"
 const AutoCarousel = () => {
   const settings = {
     autoplay: true,
@@ -17,6 +19,10 @@ const AutoCarousel = () => {
     <div className="relative">
       <Slider {...settings}>
         <div>
+          <div>
+            
+          </div>
+          
           <div className="flex justify-center h-full bg-white p-6">
           <img src={as1} alt="First slide" className="w-full sm:w-1/2 md:w-1/2 object-cover rounded-lg" />
 
@@ -24,13 +30,13 @@ const AutoCarousel = () => {
         </div>
         <div>
         <div className="flex justify-center h-full bg-white p-6">
-          <img src={as1} alt="First slide" className="w-full sm:w-1/2 md:w-1/2 object-cover rounded-lg" />
+          <img src={wfc2} alt="First slide" className="w-full sm:w-1/2 md:w-1/2 object-cover rounded-lg" />
 
           </div>  
         </div>
         <div>
         <div className="flex justify-center h-full bg-white p-6">
-          <img src={as1} alt="First slide" className="w-full sm:w-1/2 md:w-1/2 object-cover rounded-lg" />
+          <img src={pest} alt="First slide" className="w-full sm:w-1/2 md:w-1/2 object-cover rounded-lg" />
 
           </div> 
         </div>
