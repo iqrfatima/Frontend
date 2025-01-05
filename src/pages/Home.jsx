@@ -21,9 +21,9 @@ const Home = () => {
                 alt="Background"
                 className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 flex items-center justify-center text-white text-center">
-                <h1 className="text-8xl text-transparent bg-gradient-to-r from-blue-300 to-blue-600 bg-clip-text">AgriGuard</h1>
-                <p className="mt-4 text-lg">: Empowering AI</p>
+            <div className="absolute inset-0 flex items-center justify-center text-white">
+                <h1 className="text-8xl text-transparent bg-gradient-to-r from-blue-300 to-blue-600 text-left pl-10 bg-clip-text">AgriGuard</h1>
+                <p className="mt-4 font-semibold text-2xl text-white">: Empowering Farmers with AI</p>
             </div>
           {/* <img src={agriweb}/>
           agricard
