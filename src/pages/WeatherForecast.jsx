@@ -17,7 +17,7 @@ const WeatherForecast = () => {
       <Navbar />
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         {/* Render InputCard initially and WeatherPrediction once the city is set */}
-
+        
         <InputCard onCityChange={handleCitySubmit} />
         {cityName && <WeatherPrediction cityName={cityName} />}
         {/* <Footer/> */}

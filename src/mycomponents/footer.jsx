@@ -12,7 +12,7 @@ const Footer = () => {
       </a>
       <p class="mt-2 text-sm text-gray-500">An All-rounder application for all Farmers of India</p>
     </div>
-    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+    <div class="flex-grow flex flex-wrap md:pl-20 mb-10 md:mt-0 mt-10 md:text-left text-center">
   <div class="lg:w-1/5 md:w-1/2 w-full px-4">
     <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Juveria Zaheer</h2>
     <nav class="list-none mb-10"></nav>

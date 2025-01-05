@@ -12,7 +12,7 @@ export function CardCarousel() {
   return (
     <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-6xl w-full mx-auto">
       <div
-        onClick={() => navigateTo("/pestcontrol")}
+        onClick={() => navigateTo("https://saurabhsinghdhami-plant-disease-detection-main-app-p8d5ks.streamlit.app/")}
         className="cursor-pointer hover:shadow-lg transition-shadow duration-300"
       >
         <Card>
